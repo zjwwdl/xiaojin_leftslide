@@ -1,0 +1,34 @@
+@gray: #B0B0B0;
+@white: white;
+@ec: #ececec;
+@line: #b1b1b1;
+@red: #F3683F;
+@splab: #E5891C;
+@black: black;
+@orange: orange;
+@touming: transparent;
+
+.ztys (@ztys:@white) {
+  color: @ztys;
+}
+.bj (@bj:@white) {
+  background: @bj;
+}
+.bk (@width: .04rem, @color: @grey, @radius: .1rem){
+  border: @width solid @color;
+  border-radius: @radius;
+}
+.midlab (@font: .32rem,@color: black) {
+  font-size: @font;
+  color: @color;
+}
+.shadow-lower-right(@x: .06rem, @y: .06rem, @width: .2rem, @shadowcolor: rgba(0, 0, 0, .35)){
+  box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  -webkit-box-shadow: @arguments;
+}
+.shadow-normal(@x: 0, @y: .3rem, @width: .5rem, @shadowcolor: rgba(116,177,91,.6)){
+  box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  -webkit-box-shadow: @arguments;
+}
